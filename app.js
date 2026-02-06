@@ -16,6 +16,7 @@
    * port Number
    *  Consistent Hashing Algorithm
    * Zero Config
+   * Tree Shaking - Removing unused code.
    *  
    */
 

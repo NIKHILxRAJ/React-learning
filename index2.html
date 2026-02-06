@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Learning</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div id="box">
+    Not Render!
+  </div>
+
+  <script type="module">
+    const car = document.createElement("h1");
+    car.innerHTML = "Hello, my name is Nikhil Raj";
+    console.log(car);
+
+    const root = document.getElementById("box");
+    root.appendChild(car);
+  </script>
+</body>
+</html>
