@@ -28,7 +28,8 @@ const heading1 = React.createElement(
   "h1",
   { id: "title", key: "heading-1" },
   "Heading 1 from parcel" 
-);
+); 
+// React .createElement => Object => HTML (DOM)  // React Element  
 
 const heading2 = React.createElement(
   "h2",

@@ -13,17 +13,18 @@
   "license": "ISC",
   "author": "nikhil raj",
   "type": "commonjs",
- 
   "scripts": {
     "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
-
   },
   "dependencies": {
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
   "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.16.4"
   }
 }
