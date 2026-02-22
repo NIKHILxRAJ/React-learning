@@ -44,6 +44,10 @@ const container = React.createElement(
   [heading1, heading2]
 );
 
+
+
+// adding some feature
+
 // create root and render
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(container);
