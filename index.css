@@ -1,4 +1,22 @@
-#box{
- background-color: black;
- color: rgb(10, 210, 210);
+
+.header
+{
+     display: flex;
+     justify-content:space-between ;
+     margin: 10px;
+     border: 1px solid rgb(218, 16, 16);
+    
+}
+.nav-items>ul
+{
+    list-style-type: none;
+    display: flex;
+}
+.nav-items>ul>li
+{
+    padding: 10px;
+} 
+.logo
+{
+    width: 80px;
 }
